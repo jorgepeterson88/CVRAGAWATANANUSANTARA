@@ -3,7 +3,7 @@
 import { Button } from '@/components/ui/button'
 import { Card, CardContent } from '@/components/ui/card'
 import { Separator } from '@/components/ui/separator'
-import { ArrowLeft, Shield, Eye, Lock, Database, UserRights, Cookie } from 'lucide-react'
+import { ArrowLeft, Shield, Eye, Lock, Database, UserCheck, Settings } from 'lucide-react'
 
 export default function PrivacyPolicy() {
   const scrollToTop = () => {
@@ -113,7 +113,7 @@ export default function PrivacyPolicy() {
           <Card className="p-8 shadow-lg">
             <div className="flex items-start space-x-4">
               <div className="w-12 h-12 bg-blue-100 rounded-lg flex items-center justify-center flex-shrink-0">
-                <UserRights className="w-6 h-6 text-blue-600" />
+                <UserCheck className="w-6 h-6 text-blue-600" />
               </div>
               <div className="flex-1">
                 <h2 className="text-2xl font-semibold mb-4">Penggunaan Data Pribadi</h2>
@@ -159,7 +159,7 @@ export default function PrivacyPolicy() {
           <Card className="p-8 shadow-lg">
             <div className="flex items-start space-x-4">
               <div className="w-12 h-12 bg-blue-100 rounded-lg flex items-center justify-center flex-shrink-0">
-                <Cookie className="w-6 h-6 text-blue-600" />
+                <Settings className="w-6 h-6 text-blue-600" />
               </div>
               <div className="flex-1">
                 <h2 className="text-2xl font-semibold mb-4">Kebijakan Cookies</h2>
@@ -183,7 +183,7 @@ export default function PrivacyPolicy() {
           <Card className="p-8 shadow-lg">
             <div className="flex items-start space-x-4">
               <div className="w-12 h-12 bg-blue-100 rounded-lg flex items-center justify-center flex-shrink-0">
-                <UserRights className="w-6 h-6 text-blue-600" />
+                <UserCheck className="w-6 h-6 text-blue-600" />
               </div>
               <div className="flex-1">
                 <h2 className="text-2xl font-semibold mb-4">Hak Anda Sebagai Pemilik Data</h2>
